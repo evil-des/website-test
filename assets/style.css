@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+
+*, body {
+    background-color: #111111;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+header {
+    width: 50%;
+    margin: 0 auto;
+}
+    header section {
+        margin-top: 20em;
+    }
+    header section.content {
+        margin-top: 0;
+    }
+    header section h1, header section h2, p.center{
+        display: flex;
+        justify-content: center;
+    }
+    p.center {
+        font-size: 1.1em;
+        font-weight: 300;
+    }
+    header section h1 {
+        font-size: 5em;
+        font-weight: 700;
+        text-transform: uppercase;
+        line-height: 0.1em;
+    }
+    header section h2 {
+        font-weight: 400;
+    }
+        header nav ul {
+            list-style: none;
+            display: inline-flex;
+        }
+        header nav ul li a{
+            margin-right: 15px;
+            text-decoration: none;
+            font-weight: 400;
+            font-size: 14px;
+        }
+            header nav ul li a:hover {
+                text-decoration: underline;
+            }
+    header section.content h3{
+        text-transform: uppercase;
+        font-size: 2.3em;
+        font-weight: 600;
+        line-height: 0em;
+        margin-top: 2em;
+    }
+        header section.content p {
+            font-size: 1.5em;
+        }
+main {
+    width: 50%;
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+}
+    main p {
+        display: flex;
+        justify-content: center;
+        font-weight: 300;
+
+    }
+    main span {
+        font-weight: 300;
+        line-height: 1.5em;
+    }
+    main img {
+        justify-content: flex-end;
+    }
